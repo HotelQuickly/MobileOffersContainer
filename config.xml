@@ -17,7 +17,7 @@
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
   <feature name="Globalization">
-    <param name="android" value="Globalization" onload="true"/>
+    <param name="android-package" value="org.apache.cordova.globalization.Globalization" onload="true"/>
   </feature>
   <feature name="Globalization">
     <param name="ios" value="Globalization" onload="true"/>
