@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.mo454237" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>mo</name>
-  <description>
-        An Ionic Framework and Cordova project.
+<?xml version='1.0' encoding='utf-8' standalone="yes"?>
+<widget id="com.ionicframework.hqmobileoffers" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MobileOffers</name>
+    <description>
+        Hotel Quickly Mobile Offers Ionic Web Application for iOS and Android Webviews
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+    <author email="paul.yeager@hotelquickly.com" href="http://hotelquickly.com/">
+        Paul Yeager, Hotel Quickly Dev Team
     </author>
-  <content src="http://mobile-offers.hotelquickly.com"/>
-  <access origin="*"/>
-  <preference name="webviewbounce" value="false"/>
-  <preference name="UIWebViewBounce" value="false"/>
-  <preference name="DisallowOverscroll" value="true"/>
-  <preference name="BackupWebStorage" value="none"/>
-  <feature name="StatusBar">
-    <param name="ios-package" value="CDVStatusBar" onload="true"/>
-  </feature>
-  <feature name="Globalization">
-    <param name="android-package" value="org.apache.cordova.globalization.Globalization" onload="true"/>
-  </feature>
-  <feature name="Globalization">
-    <param name="ios" value="Globalization" onload="true"/>
-  </feature>
+    <content src="https://hq-mobile-offers-staging.herokuapp.com/" />
+    <access origin="*" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackupWebStorage" value="none" />
+    <feature name="StatusBar">
+      <param name="ios-package" value="CDVStatusBar" onload="true"/>
+    </feature>
+    <feature name="Globalization">
+      <param name="android-package" value="org.apache.cordova.globalization.Globalization" onload="true"/>
+    </feature>
+    <feature name="Globalization">
+      <param name="ios" value="Globalization" onload="true"/>
+    </feature>
 </widget>

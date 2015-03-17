@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.ionicframework.mo454237;
+package com.ionicframework.hqmobileoffers;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
