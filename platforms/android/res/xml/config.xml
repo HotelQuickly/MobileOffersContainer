@@ -18,7 +18,7 @@
     <author email="paul.yeager@hotelquickly.com" href="http://hotelquickly.com/">
         Paul Yeager, Hotel Quickly Dev Team
     </author>
-    <content src="https://hq-mobile-offers-staging.herokuapp.com/" />
+    <content src="https://mobile-offers-staging.hotelquickly.com/" />
     <access origin="*" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="false" />
